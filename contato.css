@@ -46,21 +46,16 @@ footer {
     bottom: 0;
     position: absolute;
 }
-​
 .center-footer {
     display: flex;    
     align-items: center;
-    
 }
-​
 .center-footer h5{
     margin: 0 10px;
 }
-​
 .redes-sociais{
     display: flex;
 }
-​
 .icone {
     display: flex;
     width: 30px;

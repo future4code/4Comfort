@@ -134,24 +134,17 @@ footer {
     height: 60px;
     align-items: center;
     justify-content: center;
-    position: fixed;
-    bottom: 0;
 }
-​
 .center-footer {
-    display: flex;
-    justify-content: ;    
+    display: flex;    
     align-items: center;
 }
-​
 .center-footer h5{
     margin: 0 10px;
 }
-​
 .redes-sociais{
     display: flex;
 }
-​
 .icone {
     display: flex;
     width: 30px;
