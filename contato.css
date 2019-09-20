@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/* inicio do estilo do header */
+header {
+    background: #DAE5E8;
+    display: flex;
+    width: 100%;
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+}
+header img{
+    width: 60px;
+    margin: 0 20px;
+}
+ul {
+    width: 80%;
+    display: flex;
+    list-style-type: none;
+}
+header li{
+    display: flex;
+    width: 15vw;
+    height: 60px;
+    margin: 0 10px;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+ul a {
+    text-decoration: none;
+    color: black
+}
+/* fim do estilo do header */
+
+/* inicio do estilo do footer */
+footer {
+    background: #DAE5E8;
+    display: flex;
+    width: 100%;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+    bottom: 0;
+    position: absolute;
+}
+​
+.center-footer {
+    display: flex;    
+    align-items: center;
+    
+}
+​
+.center-footer h5{
+    margin: 0 10px;
+}
+​
+.redes-sociais{
+    display: flex;
+}
+​
+.icone {
+    display: flex;
+    width: 30px;
+    height: 30px;  
+    margin: 0 10px;
+}
+/* fim do estilo do footer */
+
+
+/* Estilos apenas da pagina contato */
+
+.contato {
+   display: flex;
+   flex-direction: column;
+}
+
+.telefone {
+    display: flex;
+    flex-direction: column;
+}
+
+.email {
+    display: flex;
+    flex-direction: column;
+}
+
+form h1 {
+    margin: 2vh;
+}
+
+h1 {
+    margin: 3vh 0;
+}
+
+section {
+    margin: 2vh;
+}
+
+.container-contato {
+    display: grid;
+    grid-template-columns: 1fr 1fr
+}
+
+ul {
+    margin: 1vh 0;
+}
+
+
+/* Edicoes das duas paginas */
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    margin: 2vh;
+}
+
+.formulario label {
+    font-size: 2vh;
+    font-weight: bold;
+}
+
+#nome {
+    width: 40vh;
+}
+
+#email {
+    width: 40vh;
+}
+
+#telefone {
+    width: 40vh;
+}
+
+#msg {
+    width: 40vh;
+    height: 30vh;
+}
+
+button {
+    width: 10vh;
+    height: 3vh;
+    font-size: 2vh;
+    background: #DAE5E8;
+    font-weight: bold;
+}
