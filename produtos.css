@@ -1,0 +1,33 @@
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+
+/* Sessão de Produtos */
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.card-product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border: 3px solid #B5EAD7;
+    font-size: 1rem;
+    font-family: Helvetica, sans-serif;
+    width: 30vw;
+    height: 40vh;
+    margin: 10px;
+}
+
+.item-product img{
+    width: 50%;
+    height: 50%
+}
