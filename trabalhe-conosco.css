@@ -1,0 +1,37 @@
+body {
+    background: #DAE5E8;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+   
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    flex-grow: ;
+}
+
+#nome {
+    width: 30vh;
+}
+
+#email {
+    width: 30vh;
+}
+
+#telefone {
+    width: 30vh;
+}
+
+#msg {
+    width: 30vh;
+    height: 30vh;
+}
+
+button {
+    width: 10vh;
+
+}
