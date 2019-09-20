@@ -9,15 +9,19 @@ header {
     background: #DAE5E8;
     display: flex;
     width: 100%;
-    height: 12vh;
+    height: 60px;
     justify-content: space-between;
+    align-items: center;;
 }
 header img{
-    width: 100px;
-    height: 100px;
+    width: 60px;
+    height: 60px;
     margin: 0 20px;
 }
 
+.responsive {
+    display: none;
+}
 
 .list-menu {
     width: 80%;
@@ -27,12 +31,12 @@ header img{
 
 header li{
     display: flex;
-    width: 200px;
+    width: 15vw;
     height: 60px;
     margin: 0 10px;
     justify-content: center;
     align-items: center;
-    font-size: 1.5rem;
+    font-size: 18px;
 }
 .list-menu a {
     list-style: none;
@@ -122,21 +126,39 @@ header li{
 
 /* Fim de Produtos */
 
+/* inicio do estilo do footer */
 footer {
     background: #DAE5E8;
     display: flex;
-    height: 10vh;
+    width: 100%;
+    height: 60px;
+    align-items: center;
     justify-content: center;
+    position: fixed;
+    bottom: 0;
+}
+​
+.center-footer {
+    display: flex;
+    justify-content: ;    
     align-items: center;
 }
-
-footer h5{
+​
+.center-footer h5{
     margin: 0 10px;
 }
-
-.icone {
-    width: 50px;
+​
+.redes-sociais{
+    display: flex;
 }
+​
+.icone {
+    display: flex;
+    width: 30px;
+    height: 30px;  
+    margin: 0 10px;
+}
+/* fim do estilo do footer */
 
  /* Responsivo 1280px */
 @media (max-width: 1280px) {
@@ -216,17 +238,21 @@ footer h5{
         margin: 0 20px;
     }
 
+    .responsive {
+        display: none;
+    }
+
     .card-product {
             width: 100%;
             height: 40vh;
     }
 
     nav {
-        display: none;
+        display: flex;
     }
 
     #text-product {
-        display: none;
+        display: flex;
     }
 
     .card-product > p {
