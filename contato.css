@@ -34,7 +34,6 @@ ul a {
 }
 /* fim do estilo do header */
 
-
 /* inicio do estilo do footer */
 footer {
     background: #DAE5E8;
@@ -70,12 +69,46 @@ footer {
 /* fim do estilo do footer */
 
 
-/* Inicio estilo trabalhe-conosco */
-.container {
-    display: flex;
-    justify-content: center;
-    padding: 2vh;
+/* Estilos apenas da pagina contato */
+
+.contato {
+   display: flex;
+   flex-direction: column;
 }
+
+.telefone {
+    display: flex;
+    flex-direction: column;
+}
+
+.email {
+    display: flex;
+    flex-direction: column;
+}
+
+form h1 {
+    margin: 2vh;
+}
+
+h1 {
+    margin: 3vh 0;
+}
+
+section {
+    margin: 2vh;
+}
+
+.container-contato {
+    display: grid;
+    grid-template-columns: 1fr 1fr
+}
+
+ul {
+    margin: 1vh 0;
+}
+
+
+/* Edicoes das duas paginas */
 
 .formulario {
     display: flex;
@@ -84,7 +117,6 @@ footer {
 }
 
 .formulario label {
-    margin: 1vh 0; 
     font-size: 2vh;
     font-weight: bold;
 }
@@ -113,5 +145,3 @@ button {
     background: #DAE5E8;
     font-weight: bold;
 }
-
-/* Fim estilo trabalhe-conosco */
