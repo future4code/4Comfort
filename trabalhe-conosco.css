@@ -60,17 +60,17 @@ footer h5{
 .container {
     display: flex;
     justify-content: center;
-    padding: 10px;
+    padding: 2vh;
 }
 
 .formulario {
     display: flex;
     flex-direction: column;
-    margin: 10px;
+    margin: 2vh;
 }
 
 .formulario label {
-    margin: 10px 0; 
+    margin: 1vh 0; 
     font-size: 2vh;
     font-weight: bold;
 }
