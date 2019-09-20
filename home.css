@@ -6,9 +6,10 @@
 header {
     background: #DAE5E8;
     display: flex;
-    width: 1280px;
+    width: 100%;
     height: 60px;
     justify-content: space-between;
+    align-items: center;
 }
 header img{
     width: 60px;
@@ -21,7 +22,7 @@ ul {
 }
 header li{
     display: flex;
-    width: 200px;
+    width: 15vw;
     height: 60px;
     margin: 0 10px;
     justify-content: center;
@@ -30,31 +31,73 @@ header li{
 }
 ul a {
     text-decoration: none;
+    color: black;
 }
 /* fim do estilo do header */
 
-.home-main-content {
-    background: blue;
-    width: 1280px;
-    height: 81vh;
+/* inicio do estilo do banner */
+.banner {
+    background-image: url(background-4comfort.png);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 82vh;
+    align-items: center;
+    justify-content: center;
 }
+#banner-title {
+    font-size: 36px;
+    margin: 10px 0;
+}
+#conceito {
+    margin-bottom: 10px
+}
+.button {
+    padding: 10px;
+    background: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+.banner a {
+    text-decoration: none;
+    color: black;
+}
+/* fim do estilo do banner */
 
 /* inicio do estilo do footer */
 footer {
     background: #DAE5E8;
     display: flex;
-    width: 1280px;
+    width: 100%;
     height: 60px;
+    align-items: center;
     justify-content: center;
+    bottom: 0;
+    position: absolute;
+}
+.center-footer {
+    display: flex;    
     align-items: center;
 }
-
-footer h5{
+.center-footer h5{
     margin: 0 10px;
 }
-
+.redes-sociais{
+    display: flex;
+}
 .icone {
-    width: 50px;
-    
+    display: flex;
+    width: 30px;
+    height: 30px;  
+    margin: 0 10px;
 }
 /* fim do estilo do footer */
+
+
+/* responsividade iphone 5 */
+@media (max-width: 320px)
+{
+    .center-footer h5 {
+    display: none;
+    }
+}
